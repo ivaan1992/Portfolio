@@ -1,169 +1,168 @@
 #content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #191765;
-    font-family: 'Roboto', sans-serif;
-    background-image: url("images/Ellipse 18.png");
-    background-repeat: no-repeat;
-  }
-  
-  #header-content {
-    height: 100px;
-    width: 100%;
-    border: 10px solid red;
-  }
-  
-  #menu {
-    display: flex;
-  }
-  
-  #menu img {
-    margin-top: 1.5rem;
-    margin-right: 30px;
-  }
-  
-  .name {
-    display: flex;
-    flex: 1;
-    justify-content: initial;
-    margin-left: 30px;
-    color: ivory;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  #headline-section {
-    flex-direction: column;
-    position: static;
-    width: 327px;
-    margin: auto;
-    justify-content: center;
-  }
-  
-  .info {
-    color: #c8c8d4;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #7d73fc;
-  }
-  
-  .subtitle {
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-    display: flex;
-  }
-  
-  .gray {
-    display: flex;
-    justify-content: flex-start;
-    color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  #developer-skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-image: url("images/Ellipse\ 19.png");
-    background-repeat: no-repeat;
-    background-position: right  top;
-  }
-  
-  .language {
-    list-style-type: none;
-    color: #f5f5ff;
-    font-weight: bold;
-    width: 40%;
-  }
-  
-  .language li {
-    margin-bottom: 1rem;
-  }
-  
-  .frameworks {
-    list-style-type: none;
-    color: #f5f5ff;
-    font-weight: bold;
-    width: 30%;
-  }
-  
-  .frameworks li {
-    margin-bottom: 1rem;
-  }
-  
-  .skills {
-    list-style-type: none;
-    color: #f5f5ff;
-    font-weight: bold;
-    width: 30%;
-    align-self: flex-start;
-  }
-  
-  .skills li {
-    margin-bottom: 1rem;
-  }
-  
-  .purple {
-    color: #9490ff;
-  }
-  
-  #social-media {
-    display: flex;
-    flex-direction: column;
-    background-color: #191765;
-    align-items: center;
-  }
-  
-  .logos {
-    list-style-type: none;  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-  }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #191765;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("images/Ellipse 18.png");
+  background-repeat: no-repeat;
+}
 
-  .logos li {
-    float: left;  
-    margin-right: 15px;
-  }
+#header-content {
+  height: 100px;
+  width: 100%;
+  border: 10px solid red;
+}
 
-  .github img {
-    width: 40px;
-    height: 35px;
-  }
-
-  .arrow {
-    display: flex;
-    justify-content: space-around;
-
-    width: 50px;
+.github img {
+  width: 40px;
+  height: 35px;
 }
 
 .arrow img {
-    margin-top: 1px;
-    height: 30px;
-    margin-right: 10px;
+  margin-top: 1px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu img {
+  margin-top: 1.5rem;
+  margin-right: 30px;
+}
+
+.name {
+  display: flex;
+  flex: 1;
+  justify-content: initial;
+  margin-left: 30px;
+  color: ivory;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#headline-section {
+  flex-direction: column;
+  position: static;
+  width: 327px;
+  margin: auto;
+  justify-content: center;
+}
+
+.info {
+  color: #c8c8d4;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #7d73fc;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  display: flex;
+}
+
+.gray {
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#developer-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-image: url("images/Ellipse\ 19.png");
+  background-repeat: no-repeat;
+  background-position: right  top;
+}
+
+.language {
+  list-style-type: none;
+  color: #f5f5ff;
+  font-weight: bold;
+  width: 40%;
+}
+
+.language li {
+  margin-bottom: 1rem;
+}
+
+.frameworks {
+  list-style-type: none;
+  color: #f5f5ff;
+  font-weight: bold;
+  width: 30%;
+}
+
+.frameworks li {
+  margin-bottom: 1rem;
+}
+
+.skills {
+  list-style-type: none;
+  color: #f5f5ff;
+  font-weight: bold;
+  width: 30%;
+  align-self: flex-start;
+}
+
+.skills li {
+  margin-bottom: 1rem;
+}
+
+.purple {
+  color: #9490ff;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: column;
+  background-color: #191765;
+  align-items: center;
+}
+
+.logos {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.logos li {
+  float: left;
+  margin-right: 15px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
 }
 
 .work {
-    color: gray;
-    margin-top: 1px;
-    width: 20px;
+  color: gray;
+  margin-top: 1px;
+  width: 20px;
 }
 
 .arrow a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .recent-work {
