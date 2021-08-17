@@ -1,4 +1,4 @@
-![] (https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
 
@@ -7,7 +7,7 @@ This is my first professional project I'm doing for Microverse.
 
 
 
-![screenshot] (https://user-images.githubusercontent.com/73128809/129810712-485efdc8-3ac0-47c7-b2b3-5c81ae4edcc3.png)
+![screenshot](https://user-images.githubusercontent.com/73128809/129810712-485efdc8-3ac0-47c7-b2b3-5c81ae4edcc3.png)
 
 
 In this project I cloned a template from Figma. 
@@ -20,7 +20,7 @@ In this project I cloned a template from Figma.
 ## Live Demo
 
 
-[Live Demo Link] (https://ivaan1992.github.io/Portfolio/)
+[Live Demo Link](https://ivaan1992.github.io/Portfolio/)
 
 
 
