@@ -1,11 +1,11 @@
-#content {
+#content { 
   position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #191765;
   font-family: 'Roboto', sans-serif;
-  background-image: url("images/Ellipse 18.png");
+  background-image: url(images/Ellipse 18.png);
   background-repeat: no-repeat;
 }
 
@@ -147,7 +147,6 @@
 .logos {
   list-style-type: none;
   justify-content: space-between;
-  width: 220px;
 }
 
 .logos li {
@@ -176,6 +175,7 @@
 
 .recent-work {
   margin-top: 50px;
+  margin-right: 100px;
   color: #9490ff;
-  font-size: 60px;
+  font-size: 50px;
 }
