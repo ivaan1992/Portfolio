@@ -100,6 +100,7 @@
 .language {
   list-style-type: none;
   color: #f5f5ff;
+  font-size: 20px;
   font-weight: bold;
   width: 40%;
 }
@@ -111,6 +112,7 @@
 .frameworks {
   list-style-type: none;
   color: #f5f5ff;
+  font-size: 20px;
   font-weight: bold;
   width: 30%;
 }
@@ -122,6 +124,7 @@
 .skills {
   list-style-type: none;
   color: #f5f5ff;
+  font-size: 20px;
   font-weight: bold;
   width: 30%;
   align-self: flex-start;
