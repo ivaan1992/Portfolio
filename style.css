@@ -1,6 +1,5 @@
 #content {
   position: relative;
-  width: 500px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
