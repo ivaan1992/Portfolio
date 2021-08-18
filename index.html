@@ -14,18 +14,25 @@
 <body>
     
 <div id = "content">
+
+
    
-    <header>
+    <header class="header">
+      <div class="d-flex flex-center">
+      
+        <div class="name"><a href="">Ivan Gaona</a></div>
         
         <nav id = "menu">
-            <h4 class = "name">Ivan Gaona</h4>
-            <img src = "images/Union.png" alt = "" height = "25">
-        </nav>    
+          <a href="">
+          <img src = "images/Union.png" alt = "" height = "25">
+          </a>
+        </nav>
 
+      </div>  
     </header>
     
     <section id="headline-section">
-
+      <div class="flex-center">
        
         <h2 class = "title">
         Ivan Gaona
@@ -39,12 +46,12 @@
         I can help you build a product ,feature or website Look through some of my work and experience! 
         If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.</p>
-
-    </section>
-    <hr class = "gray">
+      </div>  
+  
+      <hr class = "gray d-flex">
     
-    <section id = developer-skills >
-        
+    <main id = developer-skills >
+
         <ul class = "language">
             <li class = "purple">Language</li>
             <li>Javascript</li>
@@ -70,37 +77,52 @@
             <li>Gitlab</li>
             <li>Terminal</li>
         </ul>
-        
-    </section>
-        <hr class = "gray">
+      
+      </main>
+        <hr class = "gray d-flex">
 
-        <main id = "social-media">
-            <a href=""> 
+        <nav id = "social-media">
+          <div class="d-flex flex-center">
             <ul class="logos">
               
-              <li class="github"><img src = "images/Disabled.png" alt = "github-logo"></li>
-              <li><img src = "images/Group.png" alt = "linkedin-logo"></li>
-              <li><img src = "images/Vector.png" alt = "angellist-logo"></li>
-              <li><img src = "images/Twitter.png" alt = "twitter-logo"></li>
-              <li><img src = "images/M.png" alt = "medium-logo"></li>
+              <li class="github">
+                <a href=""><img src = "images/Disabled.png" alt = "github-logo"></a>
+              </li>
+
+              <li class="down">
+                <a href=""><img src = "images/Group.png" alt = "linkedin-logo"></a>
+              </li>
               
+              <li class="down">
+                <a href=""><img src = "images/Vector.png" alt = "angellist-logo"></a>
+              </li>
+              
+              <li class="down">
+                <a href=""><img src = "images/Twitter.png" alt = "twitter-logo"></a>
+              </li>
+              
+              <li class="down">
+                <a href=""><img src = "images/M.png" alt = "medium-logo"></a>
+              </li>
             </ul>
-            </a> 
+          </div>
+          <div class="d-flex flex-center">   
+         <ul class="arrow">
+          <li>
+          <a href=""><img src = "images/Group55.png" alt = "arrow"></a>
+          </li>
+
+          <li>
+          <a href=""><h3 class = "work">Work</h3></a>   
+          </li>
+         </ul>
+        </div> 
          
-          <div class = "arrow">
-          <img src = "images/Group55.png" alt = "arrow">
-          <a href="">
-          <h3 class = "work">Work</h3>   
-          </a>
-          </div> 
-          
           <h1 class = "recent-work">MY RECENT WORK</h1>
       
-        </main>
+        </nav>
         <hr class = "gray">
-
-       
-
+      </section>  
 </div>
     
 </body>
