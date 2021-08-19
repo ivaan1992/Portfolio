@@ -290,7 +290,16 @@ body {
   color: white;
 }
 
+button:enabled {
+  border: #5f55f7;
+}
+
 button:hover {
   border: #5f55f7;
-  font-weight: bold;
+}
+
+button:disabled {
+  border: #5f55f7;
+  background-color: #2a2b33;
+  color: #c8c8d4;
 }
