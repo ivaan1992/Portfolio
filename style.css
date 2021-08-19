@@ -1,6 +1,11 @@
-.content {
+body {
+  margin: 0;
+  background-color: #191765;
   width: 100%;
-  position: relative;
+}
+
+.content {
+  width: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,8 +24,7 @@
   justify-content: center;
 }
 
-#header-content {
-  height: 100px;
+.header {
   width: 100%;
 }
 
