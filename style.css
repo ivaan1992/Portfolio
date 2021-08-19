@@ -180,6 +180,117 @@ body {
 .recent-work {
   margin-top: 50px;
   margin-right: 100px;
+  margin-left: 20px;
   color: #9490ff;
   font-size: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 30px;
+}
+
+.multi-post {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-size: contain;
+  background-size: 65% 80%;
+}
+
+#Multi-post-1 {
+  background-image: url(images/Ellipse\ 19@2x.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#Multi-post-2 {
+  background-image: url(images/Ellipse\ 20.png);
+  background-position: right top;
+  background-size: 53% 70%;
+}
+
+#Multi-post-3 {
+  background-image: url(images/Ellipse\ 21@2x.png);
+  background-position: left top;
+}
+
+#Multi-post-4 {
+  border-image: 0%;
+  background-image: url(images/Ellipse\ 22@2x.png);
+  background-position: right 14rem;
+  background-size: 54% 39%;
+}
+
+.white-title {
+  font-size: 30px;
+  color: #f5f5ff;
+  margin-bottom: 30px;
+}
+
+.experience {
+  font-size: 25px;
+  color: #dcdce8;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.css {
+  border-right: 1px solid #555;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  color: #f5f5ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.html {
+  border-right: 1px solid #555;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  color: #f5f5ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bootstrap {
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  color: #f5f5ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ruby {
+  border-left: 1px solid #555;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  color: #f5f5ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button {
+  margin-top: 30px;
+  width: 95px;
+  height: 60px;
+  text-align: center;
+  background-color: #7d73fc;
+  color: white;
+}
+
+button:hover {
+  border: #5f55f7;
+  font-weight: bold;
 }
