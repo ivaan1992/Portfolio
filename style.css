@@ -28,11 +28,6 @@ body {
   width: 100%;
 }
 
-.github img {
-  width: 40px;
-  height: 35px;
-}
-
 .arrow img {
   margin-right: 10px;
   margin-top: 20px;
@@ -146,20 +141,25 @@ body {
 #social-media {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .logos {
   list-style-type: none;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .logos li {
   float: left;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .down {
-  margin-top: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow {
@@ -242,6 +242,12 @@ body {
   list-style-type: none;
 }
 
+.project-language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .css {
   border-right: 1px solid #555;
   width: 80px;
@@ -287,6 +293,7 @@ body {
   height: 60px;
   text-align: center;
   background-color: #7d73fc;
+  border: #655bf3;
   color: white;
 }
 
