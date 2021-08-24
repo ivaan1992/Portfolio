@@ -383,12 +383,17 @@ footer{
   align-items: center;
 }
 
+.line {
+  width: 100%;
+  color: gray;
+}
 .email{
-  font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 28px;
 color: #EBEBFF;
+margin: 0%;
 margin-bottom: 40px;
 }
