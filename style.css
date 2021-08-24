@@ -323,12 +323,6 @@ form li + li {
   margin-top: 2em;
 }
 
-label {
-  display: inline-block;
-  width: 180px;
-  text-align: right;
-}
-
 input,
 textarea {
   margin-top: 1em;
@@ -337,7 +331,13 @@ textarea {
   height: 50px;
   box-sizing: border-box;
   border: 1px solid #999;
+  padding: 10px;
 }
+ 
+  #mail::placeholder {
+    color: #191765;
+    } 
+
 
 textarea {
     height: 200px;
@@ -359,7 +359,7 @@ textarea {
 }
 
 .form p {
-  font-size: 16px;
+font-size: 16px;
 line-height: 24px;
 font-weight: bold;
 color: #F5F5FF;
@@ -368,4 +368,10 @@ text-align: center;
 
 .form ul{
   padding: 0%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
