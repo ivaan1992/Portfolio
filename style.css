@@ -148,6 +148,7 @@ body {
   list-style-type: none;
   justify-content: space-between;
   margin-top: 30px;
+  padding: 0%;
 }
 
 .logos li {
@@ -374,4 +375,20 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #EBEBFF;
+margin-bottom: 40px;
 }
