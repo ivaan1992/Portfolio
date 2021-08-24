@@ -105,6 +105,10 @@ body {
   width: 40%;
 }
 
+form li + li {
+  margin-top: 1em;
+}
+
 .language li {
   margin-bottom: 1rem;
 }
@@ -312,46 +316,40 @@ button:disabled {
   color: #c8c8d4;
 }
 
-#form {
-  border-radius: .5em;
-}
-
 ul {
   list-style-type: none;
-}
-
-form li + li {
-  margin-top: 2em;
 }
 
 input,
 textarea {
   margin-top: 1em;
   font: 1em sans-serif;
-  width: 500px;
-  height: 50px;
+  font-size: 20px;
+  width: 400px;
   box-sizing: border-box;
   border: 1px solid #999;
   padding: 10px;
 }
- 
-  #mail::placeholder {
-    color: #191765;
-    } 
 
+#mail::placeholder {
+  color: #191765;
+}
 
 textarea {
-    height: 200px;
+  height: 200px;
 }
 
 .form {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 24px;
 }
+
 .contact-us {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -360,14 +358,14 @@ textarea {
 }
 
 .form p {
-font-size: 16px;
-line-height: 24px;
-font-weight: bold;
-color: #F5F5FF;
-text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #f5f5ff;
+  text-align: center;
 }
 
-.form ul{
+.form ul {
   padding: 0%;
 }
 
@@ -377,23 +375,40 @@ form {
   align-items: center;
 }
 
-footer{
-  display: flex;
+footer {
   flex-direction: column;
   align-items: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.footer {
+  margin: 0%;
+  margin-top: 20px;
 }
 
 .line {
-  width: 100%;
+  border: 1px solid gray;
   color: gray;
 }
-.email{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
-color: #EBEBFF;
-margin: 0%;
-margin-bottom: 40px;
+
+.email {
+  margin: 0%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-left: 8px;
+}
+
+.last-line {
+  margin-top: 25px;
+  width: 140px;
+  height: 5px;
+  border-radius: 25px;
+  margin-bottom: 8px;
+  background: #0d151e;
+  align-self: center;
 }
