@@ -312,9 +312,6 @@ button:disabled {
 }
 
 #form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 30px;
   border-radius: .5em;
 }
 
@@ -336,7 +333,7 @@ input,
 textarea {
   margin-top: 1em;
   font: 1em sans-serif;
-  width: 300px;
+  width: 500px;
   height: 50px;
   box-sizing: border-box;
   border: 1px solid #999;
@@ -367,4 +364,8 @@ line-height: 24px;
 font-weight: bold;
 color: #F5F5FF;
 text-align: center;
+}
+
+.form ul{
+  padding: 0%;
 }
