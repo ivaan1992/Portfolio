@@ -310,3 +310,38 @@ button:disabled {
   background-color: #2a2b33;
   color: #c8c8d4;
 }
+
+#form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 30px;
+  border-radius: .5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+form li + li {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+}
+
+input,
+textarea {
+  margin-top: 1em;
+  font: 1em sans-serif;
+  width: 300px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea{
+    height: 200px;
+}
