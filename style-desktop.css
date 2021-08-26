@@ -15,8 +15,11 @@ body {
   flex-wrap: wrap;
   background-color: #191765;
   font-family: 'Roboto', sans-serif;
-  background-image: url(images/Ellipse\ 18.png);
+  background-image: url(images/circle\ 1\ header@2x.png);
   background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x: 20px;
+  background-position-y: 100px;
 }
 
 .d-flex {
@@ -37,15 +40,23 @@ body {
   margin-top: 25px;
 }
 
+.name a {
+  text-decoration: none;
+  color: #f5f5ff;
+}
+
+.arrow a {
+  text-decoration: none;
+}
+
 #menu a {
   margin-right: 50px;
   text-decoration: none;
   display: flex;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-
 }
 
 .separate {
@@ -73,9 +84,12 @@ body {
   font-weight: bold;
 }
 
-.name a {
-  text-decoration: none;
-  color: #f5f5ff;
+main {
+  background-image: url(images/circle\ 2\ header@2x.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x: 1300px;
+  background-position-y: 320px;
 }
 
 #headline-section {
@@ -87,7 +101,7 @@ body {
 .info {
   color: #9c9cb8;
   font-size: 25px;
-  text-align: center;
+  text-align: justify;
   font-weight: bold;
 }
 
@@ -113,12 +127,7 @@ body {
 }
 
 #developer-skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  background-image: url("images/Ellipse\ 19.png");
-  background-repeat: no-repeat;
-  background-position: right  top;
+  border: 10px solid gray;
 }
 
 .language {
@@ -200,10 +209,6 @@ form li + li {
 .work {
   color: gray;
   float: left;
-}
-
-.arrow a {
-  text-decoration: none;
 }
 
 .recent-work {
