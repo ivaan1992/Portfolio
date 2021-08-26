@@ -33,7 +33,6 @@ body {
 
 .header {
   width: auto;
-  border: 1px solid gold;
 }
 
 .down2 {
@@ -99,9 +98,10 @@ main {
 }
 
 .info {
+  border: 1px solid black;
   color: #9c9cb8;
-  font-size: 25px;
-  text-align: justify;
+  font-size: 15px;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -127,15 +127,18 @@ main {
 }
 
 #developer-skills {
-  border: 10px solid gray;
+  border: 5px solid red;
+  margin-left: 750px;
+  margin-right: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .language {
   list-style-type: none;
   color: #f5f5ff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  width: 40%;
 }
 
 form li + li {
@@ -149,9 +152,8 @@ form li + li {
 .frameworks {
   list-style-type: none;
   color: #f5f5ff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  width: 30%;
 }
 
 .frameworks li {
@@ -161,9 +163,8 @@ form li + li {
 .skills {
   list-style-type: none;
   color: #f5f5ff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  width: 30%;
   align-self: flex-start;
 }
 
@@ -179,6 +180,7 @@ form li + li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
 }
 
 .logos {
