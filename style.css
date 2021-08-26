@@ -5,6 +5,10 @@
     width: 100%;
   }
   
+  .hide {
+    display: none;
+  }
+
   .content {
     width: auto;
     display: flex;
@@ -87,13 +91,14 @@
     color: gray;
     margin-left: 20px;
     margin-right: 20px;
+    border-bottom: 1px solid gray;
   }
   
   #developer-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /*background-image: url("images/Ellipse\ 19.png");*/
+    background-image: url("images/Ellipse\ 19.png");
     background-repeat: no-repeat;
     background-position: right  top;
   }
