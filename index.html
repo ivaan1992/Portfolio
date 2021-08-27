@@ -128,14 +128,14 @@
             </ul>
           
           
-            <ul class="arrow down">
+            <ul class="arrow">
               <li>
                 <a href=""><img src="images/Group55.png" alt="arrow" /></a>
               </li>
 
               <li>
                 <a href="">
-                  <h3 class="work right down">Work</h3>
+                  <h3 class="work down">Work</h3>
                 </a>
               </li>
             </ul>
@@ -256,8 +256,10 @@
                 id="name"
                 name="user_name"
                 maxlength="30"
-                placeholder="Full name"
-                required                
+                placeholder="Ivan"
+                required   
+                />
+                <input              
                 type="text"
                 id="last-name"
                 name="last-name"
@@ -266,28 +268,28 @@
                 required
                 />
             </li>
-            <li>
+            <li class="large">
               <input
                 type="email"
                 id="mail"
                 name="user_email"
-                placeholder="jeremy@gmail.com"
+                placeholder="Email Address"
                 required
               />
             </li>
-            <li>
+            <li class="large">
               <textarea
                 id="msg"
                 name="user_message"
                 maxlength="500"
-                placeholder="Enter text here"
+                placeholder="Write your text here"
                 required
               ></textarea>
             </li>
           </ul>
 
           <button type="submit" class="last-button button">
-            See Project
+            Send
           </button>
           </form>
           <form id="form" class="disapeer" action="/my-handling-form-page" method="post">

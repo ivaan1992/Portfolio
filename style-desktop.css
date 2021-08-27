@@ -257,7 +257,6 @@ form li + li {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 65% 80%;
-  border: 3px solid red;
 }
 
 .project-content {
@@ -409,9 +408,16 @@ textarea {
   border: 1px solid #999;
   padding: 10px;
 }
+#last-name {
+margin-left: 20px;
+}
 
-#mail::placeholder {
+#name::placeholder {
   color: #191765;
+}
+
+.large input, textarea {
+  width: 830px;
 }
 
 textarea {
@@ -455,7 +461,7 @@ form {
 }
 
 footer {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 0%;
   margin: 0%;
@@ -480,6 +486,7 @@ footer {
   line-height: 28px;
   color: #ebebff;
   margin-left: 8px;
+  margin-top: 10px;
 }
 
 .last-line {
