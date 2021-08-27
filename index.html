@@ -40,7 +40,7 @@
         </div>
       </header>
 
-      <main>
+      <main class="main">
         <section id="headline-section">
           <div class="flex-center">
             <h2 class="title">Ivan Gaona</h2>
@@ -250,23 +250,21 @@
           </p>
           <form id="form" action="/my-handling-form-page" method="post">
             <ul>
-              <li class="hide">
+              
                 <input
                   type="text"
                   id="name"
                   name="user_name"
                   maxlength="30"
                   placeholder="Full name"
+                  required                
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  maxlength="30"
+                  placeholder="Last name"
                   required
-                />
-                <input 
-                type="text"
-                id="last-name"
-                name="last-name"
-                maxlength="30"
-                placeholder="Last name"
-                required
-                />
+                  />
               </li>
               <li>
                 <input

@@ -96,6 +96,10 @@ main {
   background-position-y: 320px;
 }
 
+.main {
+  width: auto;
+}
+
 #headline-section {
   flex-direction: column;
   width: 400px;
@@ -245,14 +249,17 @@ form li + li {
 .grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap: 30px;
+  grid-gap: 10px;
+  justify-items: center;
+  
 }
 
 .multi-post {
   display: flex;
   background-repeat: no-repeat;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 20px;
   background-size: contain;
   background-size: 65% 80%;
 }
@@ -260,6 +267,7 @@ form li + li {
 .project-content {
   margin: auto;
   flex-basis: 20%;
+
 }
 
 .inverted {
