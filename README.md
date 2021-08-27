@@ -7,7 +7,7 @@ This is my first professional project I'm doing for Microverse.
 
 
 
-![screenshot]!(https://user-images.githubusercontent.com/73128809/131174122-9c54f3bb-6843-46fb-9900-327c980514ef.png)
+![screenshot](https://user-images.githubusercontent.com/73128809/131174122-9c54f3bb-6843-46fb-9900-327c980514ef.png)
 
 
 
