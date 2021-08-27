@@ -20,12 +20,6 @@ body {
   background-size: 200px;
   background-position-x: 20px;
   background-position-y: 100px;
-  transition: background-size;
-  transition-duration: 5s;
-}
-
-.content:hover{
-  background-size: 50vw;
 }
 
 .d-flex {
@@ -124,20 +118,6 @@ main {
   font-weight: bold;
   text-align: center;
   color: #7d73fc;
-  animation-name: rotateTitle;
-  animation-duration: 3s;
-}
-
-@keyframes rotateTitle {
-  from{
-    font-size: 0px;
-  }
-  50%{
-    font-size: 100px;
-  }
-  to{
-    font-size: 50px;
-  }
 }
 
 .subtitle {
@@ -224,14 +204,6 @@ form li + li {
   margin-right: 25%;
   padding: 0%;
   justify-self: center;
-}
-
-.logos>* {
-  transition: width;
-}
-
-.logos:hover {
-  width: 20%;
 }
 
 .justify-content {
