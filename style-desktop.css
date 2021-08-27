@@ -20,6 +20,12 @@ body {
   background-size: 200px;
   background-position-x: 20px;
   background-position-y: 100px;
+  transition: background-size;
+  transition-duration: 5s;
+}
+
+.content:hover{
+  background-size: 50vw;
 }
 
 .d-flex {

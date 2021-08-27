@@ -18,7 +18,14 @@
     font-family: 'Roboto', sans-serif;
     background-image: url(images/Ellipse\ 18.png);
     background-repeat: no-repeat;
+    transition: background-size;
+    transition-duration: 5s;
   }
+
+  .content:hover{
+    background-size: 50vw;
+  }
+
 
   .d-flex {
     display: flex;
