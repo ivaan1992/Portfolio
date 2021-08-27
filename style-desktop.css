@@ -124,6 +124,20 @@ main {
   font-weight: bold;
   text-align: center;
   color: #7d73fc;
+  animation-name: rotateTitle;
+  animation-duration: 3s;
+}
+
+@keyframes rotateTitle {
+  from{
+    font-size: 0px;
+  }
+  50%{
+    font-size: 100px;
+  }
+  to{
+    font-size: 50px;
+  }
 }
 
 .subtitle {
