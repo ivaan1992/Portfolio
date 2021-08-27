@@ -70,7 +70,7 @@ body {
 
 .multi-post img {
   flex-basis: 40%;
-  margin: 50px 50px;
+  margin-top: 100px;
 }
 
 #menu img {
@@ -251,27 +251,37 @@ form li + li {
   grid-template-columns: 100%;
   grid-gap: 10px;
   justify-items: center;
-  
 }
 
 .multi-post {
-  display: flex;
   background-repeat: no-repeat;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 20px;
   background-size: contain;
   background-size: 65% 80%;
+  border: 3px solid red;
 }
 
 .project-content {
   margin: auto;
   flex-basis: 20%;
+  margin-top: 100px;
 
 }
 
 .inverted {
   order: -1;
+  margin-right: 10px;
+}
+
+.left {
+  margin-left: 30px;
+}
+
+.center {
+  margin-left: 200px;
+}
+
+.center-inverted {
+  margin-right: 200px;
 }
 
 #Multi-post-1 {
@@ -311,8 +321,9 @@ form li + li {
 
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   list-style-type: none;
+  margin-right: 30px;
 }
 
 .project-language {
@@ -325,7 +336,7 @@ form li + li {
   border-right: 1px solid #555;
   width: 80px;
   height: 50px;
-  text-align: center;
+  text-align: left;
   color: #f5f5ff;
   font-weight: bold;
   font-size: 15px;

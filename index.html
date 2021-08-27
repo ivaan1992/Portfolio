@@ -152,8 +152,8 @@
         <section class="grid">
           
           <div id="Multi-post-1" class="multi-post d-flex">
-            <img src="images/Placeholder.png" alt="" />
-            <div class="project-content">
+            <img src="images/Placeholder.png" alt="" class="center"/>
+            <div class="project-content left">
             <h2 class="white-title">Multi-Post Stories</h2>
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
@@ -173,31 +173,9 @@
           </div>
           </div>
 
-          <div id="Multi-post-2" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
-            <div class="project-content inverted">
-            <h2 class="white-title">Multi-Post Stories</h2>
-            <p class="experience">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-
-            <ul class="projects">
-              <li class="project-language css">Css</li>
-              <li class="project-language html">Html</li>
-              <li class="project-language bootstrap">Bootstrap</li>
-              <li class="project-language ruby">Ruby</li>
-            </ul>
-
-            <button type="button" class="button">See Project</button>
-            </div>
-          </div>
-
-          <div id="Multi-post-3" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
-            <div class="project-content">
+          <div id="Multi-post-2" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center-inverted"/>
+            <div class="project-content inverted right">
             <h2 class="white-title">Multi-Post Stories</h2>
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
@@ -217,9 +195,31 @@
             </div>
           </div>
 
-          <div id="Multi-post-4" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
-            <div class="project-content inverted">
+          <div id="Multi-post-3" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center"/>
+            <div class="project-content left">
+            <h2 class="white-title">Multi-Post Stories</h2>
+            <p class="experience">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+
+            <ul class="projects">
+              <li class="project-language css">Css</li>
+              <li class="project-language html">Html</li>
+              <li class="project-language bootstrap">Bootstrap</li>
+              <li class="project-language ruby">Ruby</li>
+            </ul>
+
+            <button type="button" class="button">See Project</button>
+            </div>
+          </div>
+
+          <div id="Multi-post-4" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center-inverted"/>
+            <div class="project-content inverted right">
             <h2 class="white-title">Multi-Post Stories</h2>
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
@@ -248,9 +248,51 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form id="form" action="/my-handling-form-page" method="post">
+          <form id="form" class="hide" action="/my-handling-form-page" method="post">
             <ul>
-              
+              <li>
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                maxlength="30"
+                placeholder="Full name"
+                required                
+                type="text"
+                id="last-name"
+                name="last-name"
+                maxlength="30"
+                placeholder="Last name"
+                required
+                />
+            </li>
+            <li>
+              <input
+                type="email"
+                id="mail"
+                name="user_email"
+                placeholder="jeremy@gmail.com"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                id="msg"
+                name="user_message"
+                maxlength="500"
+                placeholder="Enter text here"
+                required
+              ></textarea>
+            </li>
+          </ul>
+
+          <button type="submit" class="last-button button">
+            See Project
+          </button>
+          </form>
+          <form id="form" class="disapeer" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
                 <input
                   type="text"
                   id="name"
