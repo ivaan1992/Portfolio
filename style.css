@@ -340,7 +340,7 @@
     padding: 10px;
   }
 
-  #mail::placeholder {
+  #email::placeholder {
     color: #191765;
   }
 

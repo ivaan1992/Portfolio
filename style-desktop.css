@@ -419,7 +419,7 @@ textarea {
   margin-left: 20px;
 }
 
-#namee::placeholder {
+#name::placeholder {
   color: #191765;
 }
 
