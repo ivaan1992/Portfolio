@@ -212,6 +212,14 @@ form li + li {
   justify-self: center;
 }
 
+.logos>* {
+  transition: width;
+}
+
+.logos:hover {
+  width: 20%;
+}
+
 .justify-content {
   width: 100%;
   display: flex;
