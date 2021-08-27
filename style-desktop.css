@@ -32,7 +32,7 @@ body {
 }
 
 .header {
-  width: 100%;;
+  width: 100%;
 }
 
 .down2 {
@@ -145,9 +145,7 @@ main {
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
   flex-direction: row;
-  width: 400px;
   margin: auto;
-
 }
 
 .language {
@@ -213,6 +211,7 @@ form li + li {
   display: flex;
   justify-content: space-between;
 }
+
 .logos li {
   float: left;
   margin-right: 20px;
@@ -271,7 +270,6 @@ form li + li {
   margin: auto;
   flex-basis: 20%;
   margin-top: 100px;
-
 }
 
 .inverted {
@@ -416,15 +414,17 @@ textarea {
   border: 1px solid #999;
   padding: 10px;
 }
+
 #last-name {
-margin-left: 20px;
+  margin-left: 20px;
 }
 
-#name::placeholder {
+#namee::placeholder {
   color: #191765;
 }
 
-.large input, textarea {
+.large input,
+textarea {
   width: 830px;
 }
 
