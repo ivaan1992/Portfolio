@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -32,7 +32,7 @@ body {
 }
 
 .header {
-  width: auto;
+  width: 100%;;
 }
 
 .down2 {
@@ -97,7 +97,7 @@ main {
 }
 
 .main {
-  width: auto;
+  width: 100%;
 }
 
 #headline-section {
@@ -141,12 +141,13 @@ main {
 }
 
 #developer-skills {
+  width: 400px;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
-  margin-left: 750px;
-  margin-right: 750px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  width: 400px;
+  margin: auto;
+
 }
 
 .language {
@@ -192,7 +193,7 @@ form li + li {
 }
 
 #social-media {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -201,12 +202,17 @@ form li + li {
   list-style-type: none;
   justify-content: space-between;
   margin-top: 30px;
-  margin-left: 600px;
-  margin-right: 550px;
+  margin-left: 25%;
+  margin-right: 25%;
   padding: 0%;
   justify-self: center;
 }
 
+.justify-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .logos li {
   float: left;
   margin-right: 20px;
@@ -237,6 +243,7 @@ form li + li {
   margin-right: 100px;
   margin-left: 20px;
   color: #9490ff;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-transform: lowercase;
@@ -257,6 +264,7 @@ form li + li {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 65% 80%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-content {
