@@ -3,7 +3,10 @@
 # Portfolio
 
 This is my first professional project I'm doing for Microverse.
-This project consists in cloning a Figma template. This was the one I choosed:
+
+This project consists in cloning a Figma template. 
+
+This was the template I choosed:
 <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10">Figma Template</a>
 
 To cloning Mobile Version from this template I followed these steps: 
