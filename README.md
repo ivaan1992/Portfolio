@@ -3,6 +3,8 @@
 # Portfolio
 
 This is my first professional project I'm doing for Microverse.
+You can see it in this link
+https://ivaan1992.github.io/Portfolio/
 
 This project consists in cloning a Figma template. 
 
@@ -40,8 +42,6 @@ To cloning Desktop Version from this template I followed these steps:
 <b>This is the Desktop Version</b>
 
 ![screenshot](https://user-images.githubusercontent.com/73128809/131397067-bd8394a4-50f1-46a9-ba09-4333838dd975.png)
-
-
 
 
 ## Built With
