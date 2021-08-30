@@ -3,11 +3,14 @@
 # Portfolio
 
 This is my first professional project I'm doing for Microverse.
+You can see it in this link
+https://ivaan1992.github.io/Portfolio/
 
 
 
 
-![screenshot](https://user-images.githubusercontent.com/73128809/129810712-485efdc8-3ac0-47c7-b2b3-5c81ae4edcc3.png)
+![screenshot](https://user-images.githubusercontent.com/73128809/131174122-9c54f3bb-6843-46fb-9900-327c980514ef.png)
+
 
 
 In this project I cloned a template from Figma. 
@@ -47,4 +50,3 @@ Give a ⭐️ if you like this project!
 
 
 ## 📝 License
-
