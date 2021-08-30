@@ -3,14 +3,21 @@
 # Portfolio
 
 This is my first professional project I'm doing for Microverse.
+This project consists in cloning a Figma template. This was the one I choosed 
+
+<a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10">Figma Template</a>
 
 
 
+This is the Desktop Version
 
-![screenshot](https://user-images.githubusercontent.com/73128809/129810712-485efdc8-3ac0-47c7-b2b3-5c81ae4edcc3.png)
+![screenshot](https://user-images.githubusercontent.com/73128809/131397067-bd8394a4-50f1-46a9-ba09-4333838dd975.png)
 
 
-In this project I cloned a template from Figma. 
+And this is the Mobile Version
+
+![screenshot](https://user-images.githubusercontent.com/73128809/131396991-80741313-dad5-4467-9b33-0e45d94d3a5a.png)
+
 
 ## Built With
 
@@ -47,4 +54,3 @@ Give a ⭐️ if you like this project!
 
 
 ## 📝 License
-
