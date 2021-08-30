@@ -9,6 +9,8 @@ This project consists in cloning a Figma template.
 This was the template I choosed:
 <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10">Figma Template</a>
 
+<b><h3>MOBILE VERSION</h3></b>
+
 To cloning Mobile Version from this template I followed these steps: 
 
 1-. Clone the header which includes the name and the hamburguer icon menu. 
@@ -24,7 +26,7 @@ To cloning Mobile Version from this template I followed these steps:
 <b>This is the Mobile Version</b>
 
 ![screenshot](https://user-images.githubusercontent.com/73128809/131396991-80741313-dad5-4467-9b33-0e45d94d3a5a.png)
-
+<b><h3>DESKTOP VERSION</h3></b>
 To cloning Desktop Version from this template I followed these steps: 
 
 1-. Opened another CSS file.
