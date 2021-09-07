@@ -48,7 +48,10 @@ To cloning Desktop Version from this template I followed these steps:
 
 -HTML & CSS
 
+-JAVASCRIPT
+
 -VISUAL STUDIO CODE
+
 
 ## Live Demo
 
