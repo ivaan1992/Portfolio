@@ -86,6 +86,12 @@
     background-repeat: no-repeat;
   }
 
+  .live-button {
+    width: 50px;
+    height: 100px;
+    color: #655bf3;
+  }
+
   .d-flex {
     display: flex;
   }
