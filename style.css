@@ -2,19 +2,20 @@ body {
   margin: 0;
   background-color: #191765;
   width: 100%;
-
 }
 
 .ham {
   position: fixed;
+
   /* keep the hamburger button above everything */
+
   z-index: 100;
   top: 1rem;
   right: 1rem;
   width: 3rem;
   height: 3rem;
   border: black solid 1px;
-  background:none;
+  background: none;
   cursor: pointer;
 }
 
@@ -27,7 +28,6 @@ body {
   display: none;
 }
 
-
 .menu {
   position: fixed;
   top: 0;
@@ -36,7 +36,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100vh;
-  background: #191765 ;
+  background: #191765;
   color: white;
   transform: translateY(-100%);
   transition: transform 0.2s;
