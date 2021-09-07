@@ -1,70 +1,69 @@
 @media (max-width: 991px) {
-.ham {
-  position: fixed;
+  .ham {
+    position: fixed;
 
-  /* keep the hamburger button above everything */
+    /* keep the hamburger button above everything */
 
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  width: 3rem;
-  height: 3rem;
-  border: black solid 1px;
-  background: none;
-  cursor: pointer;
-}
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: black solid 1px;
+    background: none;
+    cursor: pointer;
+  }
 
-.flex-row {
-  flex-direction: row;
-  padding-top: 10px;
-}
+  .flex-row {
+    flex-direction: row;
+    padding-top: 10px;
+  }
 
-.xIcon {
-  display: none;
-}
+  .xIcon {
+    display: none;
+  }
 
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100vh;
-  background: #191765;
-  color: white;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  list-style: none;
-  padding-top: 4rem;
-  opacity: 1;
-  background-image: url(images/shape\ mobile\ menu-2@2x.png);
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position-y: 50px;
-}
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: #191765;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    list-style: none;
+    padding-top: 4rem;
+    opacity: 1;
+    background-image: url(images/shape\ mobile\ menu-2@2x.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: 50px;
+  }
 
-.showMenu {
-  transform: translateY(0);
-}
+  .showMenu {
+    transform: translateY(0);
+  }
 
-li {
-  padding: 1rem 0;
-}
+  li {
+    padding: 1rem 0;
+  }
 
-.menuLink {
-  display: inline;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  color: white;
-  text-decoration: none;
-}
+  .menuLink {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
 
-.menuLink:hover {
-  text-decoration: underline;
-}
-
+  .menuLink:hover {
+    text-decoration: underline;
+  }
 
   body {
     margin: 0;
