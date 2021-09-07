@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,6 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href ="style-desktop.css" type="text/css" media="screen and (min-width: 992px)" />
     <title>Portfolio</title>
   </head>
 
@@ -22,12 +22,22 @@
     <div class="content">
       <header class="header">
         <div class="d-flex flex-center">
-          <div class="name"><a href="">Ivan Gaona</a></div>
+          <div class="name-desktop name"><a href="">Ivan Gaona</a></div>
 
           <nav id="menu">
+            
             <a href="">
+
               <!-- <img src="images/Union.png" alt="" height="25" /> -->
              
+
+              <p class="separate down2 hide">Portfolio</p>
+              <p class="separate down2 hide">About</p>
+              <p class="separate down2 hide">Contact</p>
+              <img src="images/Mail.png" class="hide" alt="Mail-Icon" height="15">
+              </a>
+              <a href="">
+              <img class="disapeer" src="images/Union.png" alt="" height="20" />
             </a>
             <button class="ham">
               <span class="menuIcon">
@@ -51,12 +61,12 @@
         </div>
       </header>
 
-      <main>
+      <main class="main">
         <section id="headline-section">
           <div class="flex-center">
-            <h2 class="title">Ivan Gaona</h2>
+            <h1 class="title">Ivan Gaona</h1>
 
-            <h3 class="subtitle">Software Developer</h3>
+            <h2 class="subtitle">Software Developer</h2>
 
             <p class="info">
               I can help you build a product, feature or website Look through
@@ -65,9 +75,9 @@
             </p>
           </div>
         </section>
-        <hr class="gray d-flex" />
-
-        <section id="developer-skills">
+      
+      
+        <section id="developer-skills" class="d-flex">
           <ul class="language">
             <li class="purple">Language</li>
             <li>Javascript</li>
@@ -94,10 +104,22 @@
             <li>Terminal</li>
           </ul>
         </section>
-        <hr class="gray d-flex" />
+       
 
         <section id="social-media">
-          <div class="d-flex flex-center">
+          <div class="d-flex flex-center flex-columns">
+            <div class="justify-content">
+            <ul class="hide arrow left">
+              <li>
+                <a href="#works" >
+                  <h3 class="work down">Work</h3>
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="images/Group55.png" alt="arrow" /></a>
+              </li>
+            </ul>
+          
             <ul class="logos">
               <li class="github">
                 <a href=""
@@ -127,30 +149,46 @@
                 <a href=""><img src="images/M.png" alt="medium-logo" /></a>
               </li>
             </ul>
-          </div>
-          <div class="d-flex flex-center">
+          
+          
+
             <ul class="arrow">
               <li>
                 <a href=""><img src="images/Group55.png" alt="arrow" /></a>
               </li>
 
               <li>
-                <a href="">
-                  <h3 class="work">Work</h3>
+                <a href="#works">
+                  <h3 class="work down">Work</h3>
                 </a>
               </li>
             </ul>
           </div>
+          </div>
 
-          <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
+
+                 <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
+        
         </section>
-        <hr class="gray" />
+       
+        <div class="gray">
+          <h2 class="recent-work">MY RECENT WORK</h2>
+        </div>
 
         <br />
+
         <section class="grid" >
           <div id="Multi-post-1" class="multi-post">
             <img src="images/Placeholder.png" alt="" />
             <h2 class="white-title">Multi-Post Stories</h2>
+
+        <section class="grid" id="works">
+          
+          <div id="Multi-post-1" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center"/>
+            <div class="project-content left">
+            <h3 class="white-title">Multi-Post Stories</h3>
+
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard dummy text
@@ -167,29 +205,11 @@
 
             <button type="button" class="button">See Project</button>
           </div>
-
-          <div id="Multi-post-2" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
-            <h2 class="white-title">Multi-Post Stories</h2>
-            <p class="experience">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-
-            <ul class="projects">
-              <li class="project-language css">Css</li>
-              <li class="project-language html">Html</li>
-              <li class="project-language bootstrap">Bootstrap</li>
-              <li class="project-language ruby">Ruby</li>
-            </ul>
-
-            <button type="button" class="button">See Project</button>
           </div>
 
-          <div id="Multi-post-3" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
+          <div id="Multi-post-2" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center-inverted"/>
+            <div class="project-content inverted right">
             <h2 class="white-title">Multi-Post Stories</h2>
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
@@ -206,11 +226,13 @@
             </ul>
 
             <button type="button" class="button">See Project</button>
+            </div>
           </div>
 
-          <div id="Multi-post-4" class="multi-post">
-            <img src="images/Placeholder.png" alt="" />
-            <h2 class="white-title">Multi-Post Stories</h2>
+          <div id="Multi-post-3" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center"/>
+            <div class="project-content left">
+            <h3 class="white-title">Multi-Post Stories</h3>
             <p class="experience">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard dummy text
@@ -226,32 +248,105 @@
             </ul>
 
             <button type="button" class="button">See Project</button>
+            </div>
+          </div>
+
+          <div id="Multi-post-4" class="multi-post d-flex">
+            <img src="images/Placeholder.png" alt="" class="center-inverted"/>
+            <div class="project-content inverted right">
+            <h3 class="white-title">Multi-Post Stories</h3>
+            <p class="experience">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+
+            <ul class="projects">
+              <li class="project-language css">Css</li>
+              <li class="project-language html">Html</li>
+              <li class="project-language bootstrap">Bootstrap</li>
+              <li class="project-language ruby">Ruby</li>
+            </ul>
+
+            <button type="button" class="button">See Project</button>
+            </div>
           </div>
         </section>
 
+
         <section class="form" id="contact">
-          <h2 class="contact-us">CONTACT US</h2>
+            <h2 class="contact-us">CONTACT US</h2>
+        <section class="form">
+          <h2 class="contact-us disapeer">CONTACT US</h2>
+          <h2 class="chat hide purple">Let's chat</h
           <p class="info">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form id="form" action="/my-handling-form-page" method="post">
+          <form id="form" class="hide" action="/my-handling-form-page" method="post">
             <ul>
               <li>
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                maxlength="30"
+                placeholder="Ivan"
+                required   
+                />
+       
+                <input              
+                type="text"
+                id="last-name"
+                name="last-name"
+                maxlength="30"
+                placeholder="Last name"
+                required
+                />
+            </li>
+
+            <li class="large">
+              <input
+                type="email"
+                id="mail"
+                name="user_email"
+                placeholder="Email Address"
+                required
+              />
+            </li>
+            <li class="large">
+              <textarea
+                id="msg"
+                name="user_message"
+                maxlength="500"
+                placeholder="Write your text here"
+                required
+              ></textarea>
+            </li>
+          </ul>
+
+          <button type="submit" class="last-button button">
+            Send
+          </button>
+          </form>
+          <form id="form-mobile" class="disapeer" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
                 <input
                   type="text"
-                  id="name"
+                  id="namee"
                   name="user_name"
                   maxlength="30"
                   placeholder="Full name"
-                  required
-                />
+                  required                
+                  />
               </li>
               <li>
                 <input
                   type="email"
-                  id="mail"
+                  id="email"
                   name="user_email"
                   placeholder="jeremy@gmail.com"
                   required
@@ -259,7 +354,7 @@
               </li>
               <li>
                 <textarea
-                  id="msg"
+                  id="mesg"
                   name="user_message"
                   maxlength="500"
                   placeholder="Enter text here"
@@ -308,7 +403,7 @@
           </ul>
           <h3 class="email">emailhere@email.com</h3>
         
-        <div class="last-line"></div>
+        <div class="last-line disapeer"></div>
       </footer>
     </div>
     <script src="script.js">
