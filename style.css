@@ -18,11 +18,15 @@ body {
   cursor: pointer;
 }
 
-
+.flex-row {
+  flex-direction: row;
+  padding-top: 10px;
+}
 
 .xIcon {
   display: none;
 }
+
 
 .menu {
   position: fixed;
@@ -38,7 +42,11 @@ body {
   transition: transform 0.2s;
   list-style: none;
   padding-top: 4rem;
-  opacity: 0.9;
+  opacity: 1;
+  background-image: url(images/shape\ mobile\ menu-2@2x.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-y: 50px;
 }
 
 .showMenu {
@@ -51,7 +59,9 @@ li {
 
 .menuLink {
   display: inline;
-  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
 }
