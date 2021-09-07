@@ -19,7 +19,7 @@ ham.addEventListener('click', toggleMenu);
 const menuLinks = document.querySelectorAll('.menuLink');
 
 menuLinks.forEach(
-  function menuLink(menuLink) {
+  function (menuLink) {
     menuLink.addEventListener('click', toggleMenu);
   },
 );
