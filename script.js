@@ -23,3 +23,23 @@ menuLinks.forEach(
     menuLink.addEventListener('click', toggleMenu);
   },
 );
+
+const contactForm = document.querySelector('#form');
+
+function validateEmail() {
+  const emailInput = document.querySelector('#email');
+  const emailError = document.querySelector('#email-error');
+  const emailLowerCase = emailInput.value.toLowerCase();
+
+  if (emailInput.value !== emailLowerCase) {
+    emailError.innerHTML = `Your email should be in lower case please use "<span style="color:black">${emailLowerCase}</span>" instead.`;
+    return false;
+  }
+  return true;
+}
+
+contactForm.addEventListener('submit', (sub) => {
+  if (!validateEmail()) {
+    sub.preventDefault();
+  }
+});
