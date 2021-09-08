@@ -1,3 +1,4 @@
+
 @media (max-width: 991px) {
   .hide {
     display: none;
@@ -124,7 +125,7 @@
   .flex {
     display: flex;
   }
-  
+
   .popup-language {
     border-right: 1px solid #555;
     width: 80px;
@@ -428,6 +429,16 @@
   }
 
   .button {
+    margin-top: 30px;
+    width: 95px;
+    height: 60px;
+    text-align: center;
+    background-color: #7d73fc;
+    border: #655bf3;
+    color: white;
+  }
+
+  .last-button {
     margin-top: 30px;
     width: 95px;
     height: 60px;

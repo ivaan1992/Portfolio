@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href ="style-desktop.css" type="text/css" media="screen and (min-width: 992px)" />
+    <link rel="stylesheet" href ="style-desktop.css" type="text/css" />
     <title>Portfolio</title>
   </head>
 
@@ -164,24 +164,16 @@
               </li>
             </ul>
           </div>
-          </div>
-
-
-                
-        
-        </section>
-       
-        <div class="gray">
-          <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
         </div>
+        </section>
 
-        <br />
+        <section id="popup" class="popup hide-item closeModal" >
 
-        
-
-        <section class="grid" id="works">
-
+         
           <h1 class="title-popup disapeer" >Multi-Post stories</h1>
+          <span class="xIcon hide xp">
+            <img src="images/xIcon.png" alt="xIcon"> 
+            </span>
             <div class="popup-mobile d-flex flex-center disapeer">
                <img class="disapeer" src="images/Snapshoot Portfolio.png" alt="">
                 <p class="disapeer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -197,18 +189,23 @@
                   <button type="button" class="disapeer button-popup flex-columns">See Live<img src="images/Icon.png" alt=""></button>
                   <button type="button" class="disapeer button-popup flex-columns">See Source<img src="images/GitVector.png" alt=""></button>             
               </div>
+        
 
-              <h1 class="title-popup hide" >Multi-Post stories</h1>
-            <div class="popup-desktop flex-center hide">
+            <div id="pop-up-desktop">
+              <h1 class="title-popup disapeer" >Multi-Post stories</h1>
+              <span class="xIcon hide">
+                <img src="images/xIcon.png" alt="xIcon"> 
+                </span>
+              <div class="popup-desktop flex-center hide">
                <img class="hide " src="images/Snapshoot-desktop.png" alt="">
                 <p class="hide desktop-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
                   took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the
                    printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris 
                    lapoa todoe.</p>
-            </div>
+                </div>
              
-                  <ul class="hide languages-desktop">
+                  <ul class="hide languages-desktop flex-center">
                     <li class="margin-right project-language popup-language popup-html">html</li>
                     <li class="margin-right project-language popup-language popup-ruby">Ruby on rails</li>
                     <li class="margin-right project-language popup-language ">css</li>
@@ -219,7 +216,21 @@
                   <button type="button" class="hide button-popup">See Live<img src="images/Icon.png" alt=""></button>
                   <button type="button" class="hide button-popup">See Source<img src="images/GitVector.png" alt=""></button>             
                  </div>
-          
+            </div>
+
+        </section>
+
+
+
+        <div class="gray">
+          <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
+        </div>
+
+        <br />
+
+       
+        
+        <section class="grid" id="works">
           <div id="Multi-post-1" class="multi-post d-flex">
             <img src="images/Placeholder.png" alt="" class="center"/>
             <div class="project-content">
@@ -362,7 +373,7 @@
             </li>
           </ul>
 
-          <button type="submit" class="last-button button">
+          <button type="submit" class="last-button">
             Send
           </button>
           </form>
@@ -442,5 +453,6 @@
       </footer>
     </div>
     <script src="script.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>

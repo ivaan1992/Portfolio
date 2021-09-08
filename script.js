@@ -2,12 +2,13 @@ const menu = document.querySelector('.menu');
 const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
 const menuIcon = document.querySelector('.menuIcon');
-const main = document.querySelector('.main');
+
+/*const main = document.querySelector('.main');
 const logo = document.querySelector('.bold');
 const header = document.getElementById('logo');
-const projs = document.querySelectorAll('.work');
+const projs = document.querySelectorAll('.work');*/
 
-function projOn() {
+/*function projOn() {
   projs.forEach(
     (work) => {
       work.style.filter = 'blur(4px)';
@@ -21,7 +22,7 @@ function projOff() {
       work.style.filter = 'blur(0px)';
     },
   );
-}
+}*/
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
@@ -44,7 +45,7 @@ menuLinks.forEach(
   },
 );
 
-const modalObj = {
+/*const modalObj = {
   modal1: {
     title: 'Multi-Post Stories',
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -182,4 +183,4 @@ window.onclick = function clickOut(event) {
     closeModal();
     clearModal();
   }
-};
+};*/

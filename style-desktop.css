@@ -1,7 +1,23 @@
+#popup {
+  position: fixed;
+  top: 5%;
+  background: rgba(255, 255, 255, 0.16);
+  z-index: 100;
+}
+
+.hide-item {
+  display: none;
+}
+
 @media(min-width: 992px){ 
   .disapeer {
     display: none;
   }
+
+  .d-block {
+    display: block;
+  }
+
   
   body {
     margin: 0;
@@ -446,6 +462,16 @@
     color: white;
   }
   
+  .last-button {
+    margin-top: 30px;
+    width: 95px;
+    height: 60px;
+    text-align: center;
+    background-color: #7d73fc;
+    border: #655bf3;
+    color: white;
+  }
+
   button:enabled {
     border: #5f55f7;
   }
