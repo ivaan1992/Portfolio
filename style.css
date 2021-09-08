@@ -1,4 +1,8 @@
 @media (max-width: 991px) {
+  .hide {
+    display: none;
+  }
+
   .ham {
     position: fixed;
 
@@ -71,9 +75,7 @@
     width: 100%;
   }
 
-  .hide {
-    display: none;
-  }
+  
 
   .content {
     width: auto;
@@ -103,6 +105,58 @@
 
   .flex-columns {
     flex-direction: column;
+  }
+
+  .margin-right {
+    margin-right: 15px;
+  }
+
+  .popup-mobile {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #f5f5ff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .popup-language {
+    border-right: 1px solid #555;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    color: #f5f5ff;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .popup-ruby {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .popup-html {
+    border-left: 1px solid #555;
+  }
+
+  .button-popup {
+    font-weight: bold;
+    align-items: center;
+    background-color: #655bf3;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .title-popup {
+    color: #fff;
+    text-align: left;
   }
 
   .header {
