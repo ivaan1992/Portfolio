@@ -84,3 +84,44 @@ alt="Project"></div>
       </div>
 `;
 });
+
+// Form
+
+const contactForm = document.querySelector('#form');
+
+function validateEmail() {
+  const emailInput = document.querySelector('#email');
+  const emailError = document.querySelector('#email-error');
+  const emailLowerCase = emailInput.value.toLowerCase();
+
+  if (emailInput.value !== emailLowerCase) {
+    emailError.innerHTML = `Your email should be in lower case please use "<span style="color:black">${emailLowerCase}</span>" instead.`;
+    return false;
+  }
+  return true;
+}
+
+contactForm.addEventListener('submit', (sub) => {
+  if (!validateEmail()) {
+    sub.preventDefault();
+  }
+});
+
+const contactForm2 = document.querySelector('#form-mobile');
+function validateEmail2() {
+  const emailInput = document.querySelector('#email2');
+  const emailError = document.querySelector('#email-error2');
+  const emailLowerCase = emailInput.value.toLowerCase();
+
+  if (emailInput.value !== emailLowerCase) {
+    emailError.innerHTML = `Your email should be in lower case please use "<span style="color:black">${emailLowerCase}</span>" instead.`;
+    return false;
+  }
+  return true;
+}
+
+contactForm2.addEventListener('submit', (sub) => {
+  if (!validateEmail2()) {
+    sub.preventDefault();
+  }
+});
