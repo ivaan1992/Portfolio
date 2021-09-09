@@ -106,3 +106,22 @@ contactForm.addEventListener('submit', (sub) => {
     sub.preventDefault();
   }
 });
+
+const contactForm = document.querySelector('#form-mobile')
+function validateEmail() {
+  const emailInput = document.querySelector('#email2');
+  const emailError = document.querySelector('#email-error2');
+  const emailLowerCase = emailInput.value.toLowerCase();
+
+  if (emailInput.value !== emailLowerCase) {
+    emailError.innerHTML = `Your email should be in lower case please use "<span style="color:black">${emailLowerCase}</span>" instead.`;
+    return false;
+  }
+  return true;
+}
+
+contactForm.addEventListener('submit', (sub) => {
+  if (!validateEmail()) {
+    sub.preventDefault();
+  }
+});
