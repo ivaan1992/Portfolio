@@ -75,8 +75,6 @@
     width: 100%;
   }
 
-  
-
   .content {
     width: auto;
     display: flex;
@@ -112,7 +110,7 @@
     width: 100%;
     justify-content: space-between;
   }
-  
+
   .x-title img {
     height: 15px;
     margin-top: 25px;
@@ -132,7 +130,7 @@
     color: #f5f5ff;
     font-family: 'Roboto', sans-serif;
   }
-  
+
   .flex {
     display: flex;
   }

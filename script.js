@@ -2,9 +2,9 @@ const menu = document.querySelector('.menu');
 const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
 const menuIcon = document.querySelector('.menuIcon');
-const buttons = document.querySelectorAll(".button");
-const exitButtons = document.querySelectorAll('#x');
-const pupup = document.querySelector("#popup");
+const buttons = document.querySelectorAll('.button');
+const exitButtons = document.querySelectorAll('.x');
+const pupup = document.querySelector('#popup');
 
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
@@ -27,14 +27,18 @@ menuLinks.forEach(
   },
 );
 
-buttons.forEach(button => {
-    button.addEventListener("click", () => {
-        pupup.classList.toggle("hide-item")
+buttons.forEach(
+  (button) => {
+    button.addEventListener('click', () => {
+      pupup.classList.toggle('hide-item');
     });
-})
+  },
+);
 
-exitButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        pupup.classList.toggle("hide-item")
-    });    
-})
+exitButtons.forEach(
+  (button) => {
+    button.addEventListener('click', () => {
+      pupup.classList.toggle('hide-item');
+    });
+  },
+);
