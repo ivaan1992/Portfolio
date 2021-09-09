@@ -1,4 +1,3 @@
-
 @media (max-width: 991px) {
   .hide {
     display: none;
@@ -106,6 +105,18 @@
 
   .flex-columns {
     flex-direction: column;
+  }
+
+  .x-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .x-title img {
+    height: 15px;
+    margin-top: 25px;
+    margin-right: 50px;
   }
 
   .margin-right {
