@@ -602,4 +602,106 @@
     background: #0d151e;
     align-self: center;
   }
+
+  .popup-project {
+    display: none;
+  }
+
+  .popup-active {
+    height: 1440px;
+    display: block;
+    position: fixed;
+    width: 1519px;
+    top: 0;
+    background: rgba(25, 23, 101, 1);
+  }
+
+  .allpopup {
+    position: relative;
+    left: 14%;
+    top: 2%;
+    border: 1px solid #fff;
+    box-shadow: 48px 48px rgb(37 47 137 / 8%);
+    background-color: rgba(255, 255, 255, 0.16);
+    width: 1105px;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-name {
+    position: relative;
+    margin-left: 2%;
+    align-self: baseline;
+    font-size: 40px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .close-popup {
+    right: -43%;
+    position: relative;
+    font-size: 35px;
+    bottom: 15%;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .snapshoot {
+    position: relative;
+    top: -9%;
+  }
+
+  .paragraph-window {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -9%;
+  }
+
+  .snapshoot-pic {
+    height: 357px;
+  }
+
+  .ul-list-window {
+    display: flex;
+    gap: 21px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    position: relative;
+    top: -12%;
+  }
+
+  .list-lang {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    margin-left: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .popup-buttons {
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    background: #7d73fc;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .button-div {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: -10%;
+  }
 }
