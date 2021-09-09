@@ -107,8 +107,8 @@ contactForm.addEventListener('submit', (sub) => {
   }
 });
 
-const contactForm = document.querySelector('#form-mobile')
-function validateEmail() {
+const contactForm2 = document.querySelector('#form-mobile');
+function validateEmail2() {
   const emailInput = document.querySelector('#email2');
   const emailError = document.querySelector('#email-error2');
   const emailLowerCase = emailInput.value.toLowerCase();
@@ -120,8 +120,8 @@ function validateEmail() {
   return true;
 }
 
-contactForm.addEventListener('submit', (sub) => {
-  if (!validateEmail()) {
+contactForm2.addEventListener('submit', (sub) => {
+  if (!validateEmail2()) {
     sub.preventDefault();
   }
 });
