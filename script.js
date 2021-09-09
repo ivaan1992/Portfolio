@@ -24,6 +24,8 @@ menuLinks.forEach(
   },
 );
 
+// Form
+
 const contactForm = document.querySelector('#form');
 
 function validateEmail() {
