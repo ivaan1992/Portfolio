@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href ="style-desktop.css" type="text/css" media="screen and (min-width: 992px)" />
+    <link rel="stylesheet" href ="style-desktop.css" type="text/css" />
     <title>Portfolio</title>
   </head>
 
@@ -61,7 +61,7 @@
         </div>
       </header>
 
-      <main class="main">
+<main class="main">
         <section id="headline-section">
           <div class="flex-center">
             <h1 class="title">Ivan Gaona</h1>
@@ -164,23 +164,21 @@
               </li>
             </ul>
           </div>
-          </div>
-
-
-                
-        
-        </section>
-       
-        <div class="gray">
-          <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
         </div>
+        </section>
+
+       
+       <div id="popup-project" class="popup-project"></div>
+
+        <section class="gray">
+          <h2 class="recent-work" id="portfolio">MY RECENT WORK</h2>
+        </section>
 
         <br />
 
+       
         
-
         <section class="grid" id="works">
-          
           <div id="Multi-post-1" class="multi-post d-flex">
             <img src="images/Placeholder.png" alt="" class="center"/>
             <div class="project-content">
@@ -200,7 +198,7 @@
               <li class="project-language ruby">Ruby</li>
             </ul>
 
-            <button type="button" class="button">See Project</button>
+            <button id="button1" type="button" class="button">See Project</button>
           </div>
           </div>
 
@@ -222,7 +220,7 @@
               <li class="project-language ruby">Ruby</li>
             </ul>
 
-            <button type="button" class="button">See Project</button>
+            <button id="button2" type="button" class="button">See Project</button>
             </div>
           </div>
 
@@ -244,7 +242,7 @@
               <li class="project-language ruby">Ruby</li>
             </ul>
 
-            <button type="button" class="button">See Project</button>
+            <button id="button3" type="button" class="button">See Project</button>
             </div>
           </div>
 
@@ -266,7 +264,7 @@
               <li class="project-language ruby">Ruby</li>
             </ul>
 
-            <button type="button" class="button">See Project</button>
+            <button id="button4" type="button" class="button">See Project</button>
             </div>
           </div>
         </section>
@@ -323,7 +321,7 @@
             </li>
           </ul>
 
-          <button type="submit" class="last-button button">
+          <button type="submit" class="last-button">
             Send
           </button>
           </form>
@@ -364,7 +362,7 @@
             </button>
           </form>
         </section>
-      </main>
+</main>
       <div class="line"></div>
       <footer class="d-flex flex-center">
        
@@ -403,5 +401,6 @@
       </footer>
     </div>
     <script src="script.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
