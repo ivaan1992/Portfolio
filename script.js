@@ -125,3 +125,66 @@ contactForm2.addEventListener('submit', (sub) => {
     sub.preventDefault();
   }
 });
+
+// Data browser
+ 
+const nameInput = document.getElementById('name');
+const lastNameInput = document.getElementById('last-name');
+const emailInput = document.getElementById('email');
+const textInput  = document.getElementById('msg');
+const nameMobileInput = document.getElementById('namee');
+const mailMobileInput = document.getElementById('email2');
+const textMobileInput =document.getElementById('mesg');
+
+function storeForm() {
+  const data = {
+    name: nameInput.value, 
+    surname: lastNameInput.value,
+    email: emailInput.value,
+    text: textInput.value,
+    mobilename: nameMobileInput.value,
+    mobilemail: mailMobileInput.value,
+    comment: textMobileInput.value, 
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+}
+
+nameInput.addEventListener('input', () => {
+  storeForm();
+});
+
+lastNameInput.addEventListener('input', () => {
+  storeForm();
+});
+
+emailInput.addEventListener('input', () => {
+  storeForm();
+});
+
+textInput.addEventListener('input', () => {
+  storeForm();
+});
+
+nameMobileInput.addEventListener('input', () => {
+  storeForm();
+});
+
+mailMobileInput.addEventListener('input', () => {
+  storeForm();
+});
+
+textMobileInput.addEventListener('input', () => {
+  storeForm();
+});
+
+window.addEventListener('load', () => {
+  const windowData = localStorage.getItem('data');
+  const parseWindow = JSON.parse(windowData);
+  nameInput.value = parseWindow.name;
+  lastNameInput.value = parseWindow.surname;
+  emailInput.value = parseWindow.email;
+  textInput.value = parseWindow.text;
+  nameMobileInput.value = parseWindow.mobilename;
+  mailMobileInput.value = parseWindow.mobilemail;
+  textMobileInput.value = parseWindow.comment;
+});
