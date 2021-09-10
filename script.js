@@ -127,24 +127,24 @@ contactForm2.addEventListener('submit', (sub) => {
 });
 
 // Data browser
- 
+
 const nameInput = document.getElementById('name');
 const lastNameInput = document.getElementById('last-name');
 const emailInput = document.getElementById('email');
-const textInput  = document.getElementById('msg');
+const textInput = document.getElementById('msg');
 const nameMobileInput = document.getElementById('namee');
 const mailMobileInput = document.getElementById('email2');
-const textMobileInput =document.getElementById('mesg');
+const textMobileInput = document.getElementById('mesg');
 
 function storeForm() {
   const data = {
-    name: nameInput.value, 
+    name: nameInput.value,
     surname: lastNameInput.value,
     email: emailInput.value,
     text: textInput.value,
     mobilename: nameMobileInput.value,
     mobilemail: mailMobileInput.value,
-    comment: textMobileInput.value, 
+    comment: textMobileInput.value,
   };
   localStorage.setItem('data', JSON.stringify(data));
 }
